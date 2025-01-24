@@ -1,8 +1,8 @@
 "use client";
 export default function FormData() {
   return (
-    <div className="flex flex-row justify-center">
-      <div className="flex flex-col gap-4 p-4 w-1/4">
+    <div className="flex justify-center items-center min-h-screen bg-gray-100 ">
+      <div className="flex flex-col gap-4 p-8 w-1/4 bg-white shadow-lg rounded-md ">
         <div className="flex px-2 flex-col">
           <label htmlFor="firstName" className="mb-1" style={{ width: "12vw" }}>
             First Name:
